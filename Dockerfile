@@ -1,4 +1,4 @@
-docker run --rm -it nuisancemc/dependencies:root-6.30.04-minimal
+FROM nuisancemc/dependencies:root-6.30.04-minimal
 RUN apt-get install -y python3-pip
 RUN pip install --no-cache notebook
 WORKDIR /
