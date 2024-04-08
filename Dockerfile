@@ -1,4 +1,4 @@
-FROM nuisancemc/genie:3.04.00
+FROM nuisancemc/nuisance:Q2-2024
 RUN apt-get install -y python3-pip
 RUN pip install --no-cache notebook
 WORKDIR /
