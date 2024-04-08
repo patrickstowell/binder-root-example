@@ -1,4 +1,4 @@
-FROM nuisancemc/nuwro:21.09.02
+docker run --rm -it nuisancemc/dependencies:root-6.30.04-minimal
 RUN apt-get install -y python3-pip
 RUN pip install --no-cache notebook
 WORKDIR /
